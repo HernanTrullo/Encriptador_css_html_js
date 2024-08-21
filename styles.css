@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Matemasie&display=swap');
+
+header{
+    background-color: #f5e1ce;
+    color: #007bff;
+}
+
+.header-title{
+    font-family: 'Matemasie';
+    font-style: italic;
+    font-weight: 400;
+    font-size: xx-large;
+    font-display: swap;
+    
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5e1ce;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    column-gap: 10vh;
+    height: 80vh;
+    width: 150vh;
+    border-radius: 50px;
+}
+
+.input-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    height: 500px;
+    width: 60vh;
+    margin: 3vh;
+    margin-right: 5vh;
+}
+.output-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    height: 500px;
+    width: 60vh;
+    margin: 3vh;
+    margin-left: 5vh;
+}
+
+textarea {
+    width: 100%;
+    height: 80vh;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: small;
+    font-display: swap;
+    
+}
+#outputText{
+    text-align: center;
+    color: #0056b3;
+}
+
+.container-input-section-btns{
+    display: flex;
+    flex-direction: row;
+    gap: 5vh;
+    
+}
+
+
+button {
+    width: 20vh;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: medium;
+    font-display: swap;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
